@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://farizink.com/projects/test-project/</loc>
+    <lastmod>2018-05-21T14:06:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/article/test-article-lagi/</loc>
+    <lastmod>2018-05-20T13:40:57+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/article/test-artikel/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/design/test-design/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/page/test-page/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/article/</loc>
+    <lastmod>2018-05-20T13:40:57+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/tags/contoh/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/design/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/</loc>
+    <lastmod>2018-05-21T14:06:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/page/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/tags/percobaan/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/projects/</loc>
+    <lastmod>2018-05-21T14:06:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/tags/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/tags/test/</loc>
+    <lastmod>2018-05-18T20:38:27+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/categories/unknown/</loc>
+    <lastmod>2018-05-21T14:06:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://farizink.com/tags/unknown/</loc>
+    <lastmod>2018-05-21T14:06:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

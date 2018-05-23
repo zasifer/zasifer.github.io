@@ -1,0 +1,187 @@
+/* LIST POST */
+.container-post {
+  width: 60%;
+  margin: 30px 20%;
+}
+.post {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: white;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+article:hover {
+  cursor: pointer;
+  transform:translateY(-10px);
+  transition-delay: 1s;
+  box-shadow: 0px 0px 39px 0px rgba(0,0,0,0.23);
+  transition: 0.3s ease;
+}
+.comment {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  z-index: 1;
+}
+.comment div {
+  opacity: 0;
+  transform: translateY(-75px);
+  border-radius: 3px;
+  background: white;
+  color: black;
+  padding: 12px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+article:hover .comment div {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: 0.3s ease;
+}
+.img-container {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: -6px;
+}
+.img-container img {
+  margin-bottom: -5px;
+}
+.filter-image {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background: linear-gradient(to bottom, #311b9261, #4A148C);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+article:hover .filter-image{
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.meta-post {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 12px;
+}
+.meta-post h3 {
+  margin-bottom: 7px !important;
+  color: black;
+}
+.meta-post .time {
+  color: #484848;
+}
+.meta-post h3, .meta-post .time {
+  transform: translate3d(0px, 0px, 0px);
+  transition: 0.3s ease;
+  opacity: 1;
+}
+article:hover .meta-post h3, article:hover .meta-post .time {
+  transform: translate3d(0px, -66px, 0px);
+  transition: 0.3s ease;
+  opacity: 0;
+}
+article:hover .meta-post .time, .meta-post h3 {
+  transition-delay: 0.03s;
+}
+
+.meta-post-2 {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    padding: 12px;
+}
+.meta-post-2 h3, .meta-post-2 .time {
+  color: white;
+  transform: translate3d(0px, 63px, 0px);
+  transition: 0.3s ease;
+  opacity: 0;
+}
+.meta-post-2 .time .tags .tag {
+  color: white;
+}
+.meta-post-2 h3 {
+  margin-bottom: 7px !important;
+  transition-delay: 0.03s;
+}
+article:hover .meta-post-2 h3, article:hover .meta-post-2 .time {
+  transform: translate3d(0px, 0px, 0px);
+  opacity: 1;
+  transition: 0.3s ease;
+}
+article:hover .meta-post-2 .time {
+  transition-delay: 0.03s;
+}
+.post-button {
+  background: #4a148c;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #4a148c;
+  transition: 0.1s ease;
+}
+.post-button:hover {
+  transition: 0.1s ease;
+  transition-delay: 0s;
+  color: black;
+  text-decoration: underline;
+  background: white;
+  border: 1px solid #ccc;
+}
+.post-button-area {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 17px;
+  opacity: 0;
+  transform: translateY(35px);
+  transition: 0.3s ease;
+}
+article:hover .post-button-area {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: 0.3s ease;
+  transition-delay: 0.3s !important;
+}
+.post-tags {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 17px;
+}
+.tag-button {
+  transform: translateY(35px);
+  opacity: 0;
+  transition: 0.3s ease;
+}
+article:hover .tag-button {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: 0.3s ease;
+}
+article:hover .tag-button:nth-child(1) {transition-delay: 0.1s;}
+article:hover .tag-button:nth-child(2) {transition-delay: 0.2s;}
+article:hover .tag-button:nth-child(3) {transition-delay: 0.3s;}
+.pagination {
+  width: 60%;
+  margin: 30px 20%;
+  background: white;
+  padding: 12px;
+  border-radius: 3px;
+}
+@media screen and (max-width:900px) {
+  .container-post, .pagination {
+    width: 90%;
+    margin: 30px 5%;
+  }
+}
+@media screen and (max-width:600px) {
+  .container-post, .pagination {
+    width: 98%;
+    margin: 30px 1%;
+  }
+}

@@ -1,0 +1,6 @@
+ - Profile
+ - Education
+ - Skills
+ - Achivement
+ - Portofolio
+ - Contact Info
